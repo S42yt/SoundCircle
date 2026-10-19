@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "soundcircle",
+  "version": "${version}",
+  "name": "SoundCircle",
+  "description": "Visualizes nearby sounds around your crosshair for accessibility.",
+  "authors": [
+    "S42yt"
+  ],
+  "contact": {
+    "homepage": "https://github.com/S42yt/SoundCircle",
+    "sources": "https://github.com/S42yt/SoundCircle",
+    "issues": "https://github.com/S42yt/SoundCircle/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/soundcircle/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.s42.soundcircle.SoundCircle"
+    ],
+    "modmenu": [
+      "de.s42.soundcircle.config.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "${mc}",
+    "java": ">=${java}",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": ">=${yacl}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
