@@ -12,7 +12,7 @@
     "sources": "https://github.com/S42yt/SoundCircle",
     "issues": "https://github.com/S42yt/SoundCircle/issues"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "icon": "assets/soundcircle/icon.png",
   "environment": "client",
   "entrypoints": {
